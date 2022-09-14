@@ -7,7 +7,7 @@
 .imagen{
    background-image: url("../imagen/grati.jpg");
    height: 100vh;
-   width: 100vw;
+   width: 100%;
    background-repeat: no-repeat;
    background-size: cover;
 
@@ -63,7 +63,7 @@ body {
    font-family: 'Montserrat', sans-serif;
  }
  .navegar{
-    width: 100vw;
+    width: 100%;
     height: auto;
     background-color: #191c32;
     color: #fff;
@@ -107,8 +107,8 @@ body {
 /*fin de barra de navegacion*/
 .main{
     margin: 0 auto;
-    width: 80vw;
-    height: 80vh;
+    width: 100%;
+
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -142,10 +142,11 @@ body {
 /*inicio de segunda parte*/
 .sobre-mi{
    text-align:center;
-   width: 100vw;
+   width: 100%;
+   height: 100vh;
    align-items: center;
    background-image: url(https://static.vecteezy.com/system/resources/previews/004/256/684/non_2x/abstract-minimalist-background-modern-background-design-wave-liquid-shapes-composition-creative-templates-fit-for-presentation-design-website-basis-for-banners-wallpapers-brochure-free-vector.jpg);
-   padding: 250px;
+   padding: 50px;
    color: black;
 }
 
@@ -177,18 +178,18 @@ body {
    
 .portfolio{
    background-color: #191c32;
-   width: 100vw;
+   width: 100%;
    color: #fff;
 }
 .portfolio-headings{
-   width: 100vw;
+   width: 100%;
    padding: 5em;
 }
 .portfolio-headings h2{
    font-size: 2.5em;
 }
 .portfolio .container{
-   width: 80vw;
+   width: 80%;
    height: 80vh;
    margin: 0 auto;
    display: flex;
@@ -304,7 +305,7 @@ body {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   width: 100vw;
+   width: 100%;
    height: 200px;
    padding: 2em;
    background-color: aqua;
@@ -415,7 +416,7 @@ body {
    }
  
    .form-group {
-     width: 80vw;
+     width: 80%;
  
    }
  .boton{
