@@ -422,4 +422,10 @@ body {
  .boton{
    padding-top: 400px;
  }
+ .sobre-mi{
+   height: 100%;
+ }
+ .footer{
+   height: 100%;
+ }
  }
