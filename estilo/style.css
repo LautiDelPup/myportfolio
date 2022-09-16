@@ -17,6 +17,7 @@
     list-style: none;
     text-align: center;
     padding-top: 500px;
+    
 }
 .boton a{
     text-decoration: none;
@@ -26,6 +27,7 @@
     background-color: black;
     padding: 15px;
     border-radius: 70px;
+    
     
 }
 .boton a:hover{
@@ -165,6 +167,23 @@ body {
 .sobre-mi p{
    margin-top: 20px;
    color: black; 
+}
+.descarga-cv2 {
+   padding: 10px 20px;
+   background-color: aqua;
+   border: none;
+   border-radius: 20px;
+   margin-top: 10px;
+   cursor: pointer;
+   box-shadow: 1px 3px 11px -5px rgb(102, 231, 200,.69);
+}
+.descarga-cv2:hover{
+   background-color: #fff;
+   box-shadow: none;
+   }
+.descarga-cv2 a{
+   text-decoration: none;
+   color: black;
 }
 /*fin segunda parte*/
 .divide{
@@ -330,6 +349,63 @@ body {
  .redes-sociales i {
    font-size: 1.5em;
  }
+ /*Pagina sobre mi*/
+ .div-sobre-mi{
+   background-color: #191c32;
+ }
+ .div-sobre-mi h1{
+   color: aqua;
+ }
+ .div-sobre-mi p{
+   color: #fff;
+ }
+ .flex{
+   background-color: #191c32;
+   display: flex;
+   flex-direction: column;
+ }
+ .flex:hover .rojo,
+ .flex:hover .verde,
+ .flex:hover .azul{
+   transform: translateX(100%);
+   -webkit-transform: translateX(100%);
+   -moz-transform: translateX(100%);
+   -ms-transform: translateX(100%);
+   -o-transform: translateX(100%);
+}
+ .rojo{
+    background-color: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    transition:all 2s ease-in ;
+    -webkit-transition:all 2s ease-in ;
+    -moz-transition:all 2s ease-in ;
+    -ms-transition:all 2s ease-in ;
+    -o-transition:all 2s ease-in ;
+}
+.verde{
+    background-color: green;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    transition: all 2s linear ;
+    -webkit-transition: all 2s linear ;
+    -moz-transition: all 2s linear ;
+    -ms-transition: all 2s linear ;
+    -o-transition: all 2s linear ;
+}
+.azul{
+    background-color: blue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    transition:all 2s ease-out ;
+    -webkit-transition:all 2s ease-out ;
+    -moz-transition:all 2s ease-out ;
+    -ms-transition:all 2s ease-out ;
+    -o-transition:all 2s ease-out ;
+}
  /*reponsive*/
 
  @media screen and (max-width: 800px) {
@@ -363,11 +439,13 @@ body {
    .fa-bars {
      font-size: 1.5em;
      margin-top: -.2em;
+     color: #fff;
    }
  
    .toggle-menu .fa-close {
      font-size: 1.7em;
      display: none;
+     color: #fff;
    }
  
    .main,
