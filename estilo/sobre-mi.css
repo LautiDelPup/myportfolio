@@ -1,0 +1,108 @@
+/*Pagina sobre mi*/
+.div-sobre-mi{
+    background-color: #191c32;
+  }
+  .div-sobre-mi h1{
+    color: aqua;
+  }
+  .div-sobre-mi h2{
+    color: #fff;
+  }
+ .de-donde-soy{
+  display: flex;
+ }
+ .de-donde-soy p{
+  color: #fff;
+ }
+ .de-donde-soy img{
+  border-radius: 10%;
+  border: 7px solid aqua;
+  padding: 10px;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+.programar{
+  background-color: aqua;
+}
+.programar-info{
+  display: flex;
+}
+.programar-info p{
+  color: #191c32;
+}
+.programar-info img{
+  border-radius: 10%;
+  border: 7px solid #191c32;
+  padding: 10px;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+  .flex{
+    background-color: #191c32;
+    display: flex;
+    flex-direction: column;
+  }
+  .flex:hover .rojo,
+  .flex:hover .verde,
+  .flex:hover .azul{
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+ }
+  .rojo{
+     background-color: red;
+     border-radius: 50%;
+     width: 100px;
+     height: 100px;
+     transition:all 2s ease-in ;
+     -webkit-transition:all 2s ease-in ;
+     -moz-transition:all 2s ease-in ;
+     -ms-transition:all 2s ease-in ;
+     -o-transition:all 2s ease-in ;
+ }
+ .verde{
+     background-color: green;
+     border-radius: 50%;
+     width: 100px;
+     height: 100px;
+     transition: all 2s linear ;
+     -webkit-transition: all 2s linear ;
+     -moz-transition: all 2s linear ;
+     -ms-transition: all 2s linear ;
+     -o-transition: all 2s linear ;
+ }
+ .azul{
+     background-color: blue;
+     border-radius: 50%;
+     width: 100px;
+     height: 100px;
+     transition:all 2s ease-out ;
+     -webkit-transition:all 2s ease-out ;
+     -moz-transition:all 2s ease-out ;
+     -ms-transition:all 2s ease-out ;
+     -o-transition:all 2s ease-out ;
+ }
+@media  screen and (max-width: 800px) {
+  .de-donde-soy{
+    display: flex;
+    flex-direction: column;
+  }
+  .de-donde-soy img{
+    height: 150px;
+    width: 50%;
+  }
+  .programar-info{
+    flex-direction: column;
+  }
+  .programar-info img{
+    height: 150px;
+    width: 50%;
+    
+  }
+}
