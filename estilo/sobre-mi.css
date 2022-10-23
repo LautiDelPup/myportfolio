@@ -1,18 +1,22 @@
 /*Pagina sobre mi*/
+
 .div-sobre-mi{
     background-color: #191c32;
   }
   .div-sobre-mi h1{
     color: aqua;
+    padding: 20px;
   }
   .div-sobre-mi h2{
     color: #fff;
+    margin: 15px;
   }
  .de-donde-soy{
   display: flex;
  }
  .de-donde-soy p{
   color: #fff;
+  margin: 15px;
  }
  .de-donde-soy img{
   border-radius: 10%;
@@ -26,11 +30,16 @@
 .programar{
   background-color: aqua;
 }
+.programar h2{
+    padding: 15px;
+}
 .programar-info{
   display: flex;
+  padding: 15px;
 }
 .programar-info p{
   color: #191c32;
+  margin: 10px;
 }
 .programar-info img{
   border-radius: 10%;
